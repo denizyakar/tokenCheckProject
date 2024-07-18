@@ -40,8 +40,8 @@ def verify_eth_balance(address: str, min_balance: float, api_key: str, api_secre
 # Get wallet address from user input
 wallet_address = input("Please enter the wallet address: ")
 min_balance = 1.0  # Set the threshold balance
-api_key = '62323220b8774f4aba258e0cb701a069'
-api_secret = 'IwJJ45q3FwdAgX1O25lDthqgQQnO3QaBEPxNq8OU5Cj0CU1KfC8qHQ'
+api_key = 'API KEY'
+api_secret = 'API SECRET'
 
 result = verify_eth_balance(wallet_address, min_balance, api_key, api_secret)
 
